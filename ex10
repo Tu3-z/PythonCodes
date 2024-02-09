@@ -1,0 +1,5 @@
+real = float(input('Digite sua quantia de dinheiro: '))
+dolar = float(real / 5.22)
+euro = float(real / 5.52)
+libra = float(real / 6.44)
+print('Conversão: \nDólar: {:.2f} \nEuro: {:.2f} \nLibra esterlina: {:.2f}'.format(dolar, euro, libra))

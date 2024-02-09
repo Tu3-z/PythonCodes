@@ -1,0 +1,7 @@
+v = float(input('Digite a velocidade do carro: '))
+d = float(v - 80)
+if v > 80:
+    print('Você foi multado por ultrapassar a velocidade permitida \nPREÇO DA MULTA: R${:.2f}'.format((7 * d)))
+else:
+    print('Dentro dos limites \nOK')
+

@@ -1,0 +1,5 @@
+s = float(input('Digite seu sálario: $'))
+a = float(input('Digite a porcentagem para aumento: '))
+sn = float(s + (a * s) / 100)
+print('Salário com {}% de aumento aplicado: ${}'.format(a, sn))
+

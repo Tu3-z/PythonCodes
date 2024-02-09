@@ -1,0 +1,3 @@
+f = input('Digite uma frase: ').strip().upper()
+q = f.replace('Á', 'A').replace('À', 'A').replace('Ã', 'A').replace('Â', 'A')
+print('A letra "a" apareceu {} vezes \nA primeira está na posição {} \nA última está na posição {}'.format(q.count('A'), q.find('A')+1, q.rfind('A')+1))

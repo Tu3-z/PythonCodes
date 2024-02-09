@@ -1,0 +1,4 @@
+d = float(input('Digite por quantos dias o carro foi alugado: '))
+km = float(input('Digite quantos quilômetros foram rodados: '))
+p = float((d * 60)+ (km * 0.15))
+print('Total a pagar: ${}'.format(p))

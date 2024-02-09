@@ -1,0 +1,3 @@
+n = input('Digite seu nome completo: ').strip()
+d = n.strip().split()
+print('Letras maiúsculas: {} \nLetras minúsculas: {} \nQuantidade de letras: {} \nquantidade de letras do primeiro nome: {}'.format(n.upper(), n.lower(), (len(n) - n.count(' ')), len(d[0])))

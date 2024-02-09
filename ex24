@@ -1,0 +1,7 @@
+n = input('Digite o nome da cidade: ').strip().upper()
+d = n.split()
+r = 'SANTO' in d[0]
+if r == True:
+    print('Sua cidade contém a palavra "Santo" como primeiro nome')
+else:
+    print('Sua cidade não contém a palavra "Santo" como primeiro nome')

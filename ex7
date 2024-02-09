@@ -1,0 +1,9 @@
+name = input('Digite o nome do aluno(a): ')
+nt1 = float(input('Digite a nota 1: '))
+nt2 = float(input('Digite a nota 2: ')) 
+m = float((nt1 + nt2)/2)
+print('A média do aluno(a) {} é {}'.format(name, m))
+if m > 6 :
+    print('SITUAÇÃO: APROVADO')
+else :
+    print('SITUAÇÃO: REPROVADO') 

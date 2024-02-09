@@ -1,0 +1,4 @@
+n = float(input('Digite um número: '))
+ant = float(n - 1)
+suc = float(n + 1)
+print('Sucessor: {} \nAntecessor: {}' .format(suc, ant)) 

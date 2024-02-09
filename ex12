@@ -1,0 +1,4 @@
+v = int(input('Digite o preço do produto: $'))
+d = int(input('Digite o desconto desejado: '))
+vf = int(v - (d * v) / 100)
+print('Novo preço com {}% off aplicado: ${:.2f}'.format(d, vf))

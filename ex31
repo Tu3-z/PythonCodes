@@ -1,0 +1,5 @@
+k = float(input('Digite quantos quilômetros o trajeto possui: '))
+if k <= 200:
+    print('VALOR DA PASSAGEM: R${}'.format(k * 0.50))
+else:
+    print('VALOR DA PASSAGEM: R${}'.format(k * 0.45))

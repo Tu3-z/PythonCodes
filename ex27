@@ -1,0 +1,3 @@
+n = input('Digite seu nome completo: ')
+s = n.rsplit()
+print('Primeiro nome: {} \nÚltimo nome: {}'.format(s[0], s[len(s)-1]))

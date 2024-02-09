@@ -1,0 +1,4 @@
+m = float(input('Digite um valor: '))
+cm = float(m * 1000)
+mm = float(m * 10000)
+print('{}m em: \nCm: {} \nMm: {}'.format( m, cm, mm))

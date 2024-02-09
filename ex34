@@ -1,0 +1,5 @@
+s = float(input('Digite seu sálario: '))
+if s <= 1250:
+    print('Seu salário teve um aumento de 15% {}'.format(s + (s * 15) / 100))
+else:
+    print('Seu salário teve um aumento de 10% {}'.format(s + (s * 10) / 100))

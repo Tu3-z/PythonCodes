@@ -1,0 +1,6 @@
+a = int(input('Digite um ano: '))
+d = (a % 4)
+if d == 0:
+    print('{} é um ano bissexto'.format(a))
+else:
+    print('{} não é um ano bissexto'.format(a))

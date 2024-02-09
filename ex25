@@ -1,0 +1,6 @@
+n = input('Digite seu nome completo: ').strip().upper()
+r = 'SILVA' in n
+if r == True:
+    print('Seu nome contém o sobrenome "Silva"')
+else:
+    print('Seu nome não contém o sobrenome "Silva"')
